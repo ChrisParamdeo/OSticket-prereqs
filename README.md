@@ -38,8 +38,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
  3.(The Files) Make sure you have ALL the files mentioned in the prerequisites ready to be installed. (PHP Manager, Rewrite Module, MySQL, OSticket, HeidiSQL, VC Redist. And OSticket.) I Have sourced them on the "List of Prerequisites" section of this tutorial but before anything we must properly install and configure IIS in your virtual machine.    
 
-  3.(Internet Information Services) IIS is short for Internet Information Services. We must properly install and configure IIS in your virtual machine because this is necessary to install "OSticket". To do this you will need to open up "Programs" from the Control Panel on your Virtual Machine. From there select "Turn Windows features on or off"
-   
+  3.(Internet Information Services) IIS is short for Internet Information Services. We must properly install and configure IIS in your virtual machine because this is necessary to install "OSticket". To do this you will need to open up "Programs" from the Control Panel on your Virtual Machine. From there select "Turn Windows features on or off" Another window should pop up, go through that list and look for IIS. You're going to want to make sure the IIS box is "Checked". Then within that list click on "World Wide Web Services. "Application Development Features" will pop up under "World Wide Web Services". Check the box "CGI" off. Next you should also see in the list a "Common HTTP Features", Click on this. Make sure all the boxes under are checked off. 
+
+ 4. (Installation Files) Download and Install all the files except for OSticket at this point. There are certain steps and configurations that you need to follow to make sure everything is in the correct place it needs to be and that everything is configured correctly to ensure everything is running the way it's supposed to. I would first start by downloading and installing PHP manager, Rewrite Module (It is a requirement for OSticket to work), and VC Redist. as these are simple installations. Next I would Create a directory for PHP on the local hard drive (C:) By creating a new folder named PHP. Now You're going to want to download PHP. Once it's finished downloading you're going to right-click PHP from the downloads folder, click "extract all" from your list of right-click options, click browse and make the extract destination into your "C:\PHP" folder. Next download and install MySQL. During the installation procress you're going to want to check off that you want to do the Typical Install. At the end of the install you'll be prompted on launching the MySQL Setup Wizard. Make sure that you click on that option. From there you're going to click standard configuration and Install as a Windows Service. Create a password, execute and you're all finished with your Installation files.
+
+ 5. (Configuration Inside of IIS)
+
+
+
 </p>
 <br />
 
