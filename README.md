@@ -42,7 +42,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
  4. (Installation Files) Download and Install all the files except for OSticket at this point. There are certain steps and configurations that you need to follow to make sure everything is in the correct place it needs to be and that everything is configured correctly to ensure everything is running the way it's supposed to. I would first start by downloading and installing PHP manager, Rewrite Module (It is a requirement for OSticket to work), and VC Redist. as these are simple installations. Next I would Create a directory for PHP on the local hard drive (C:) By creating a new folder named PHP. Now You're going to want to download PHP. Once it's finished downloading you're going to right-click PHP from the downloads folder, click "extract all" from your list of right-click options, click browse and make the extract destination into your "C:\PHP" folder. Next download and install MySQL. During the installation procress you're going to want to check off that you want to do the Typical Install. At the end of the install you'll be prompted on launching the MySQL Setup Wizard. Make sure that you click on that option. From there you're going to click standard configuration and Install as a Windows Service. Create a password, execute and you're all finished with your Installation files.
 
- 5. (Configuration Inside of IIS)
+ 5. (Configuration Inside of IIS) Now that all the prerequisite files have been downloaded its time to configure some things in IIS. To do this open IIS as an Admin by right-clicking the IIS icon and selecting run as admin from the list of options presented. From there you will get access to the IIS Manager. Inside of the IIS manager you will see several programs, click on the "PHP Manager". From the PHP Manager screen you will register a new PHP version. To do this you will browse and open the PHP folder from the C drive. All Finished! KEY NOTE: Whenever you do anything on the IIS Server it is recommended that you restart the server for best results. To do this go to the IIS Manager Homepage and in the Actions Taskbar you're going to click "Restart".
+ 
+ 6. (Install
+    
 
 
 
