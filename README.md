@@ -24,9 +24,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Create an Azure Virtual Machine Windows 10, 4 vCPUs
 - Install, Enable and Configure IIS in Windows with CGI and Common HTTP Features. This is necessary to install OSticket!
-- Download and install all required files; PHP Manager, Rewrite Module, 
-- Create a directory for php on the local directory ( C Drive ) 
-- Item 5
+- Download and install all required files; PHP Manager, Rewrite Module, MySQL, OSticket, HeidiSQL, VC Redist., OSticket 
+  
+-  <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Source of all Downloads needed!</a>
 
 <h2>Installation Steps</h2>
 
