@@ -44,7 +44,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
  5. (Configuration Inside of IIS) Now that all the prerequisite files have been downloaded its time to configure some things in IIS. To do this open IIS as an Admin by right-clicking the IIS icon and selecting run as admin from the list of options presented. From there you will get access to the IIS Manager. Inside of the IIS manager you will see several programs, click on the "PHP Manager". From the PHP Manager screen you will register a new PHP version. To do this you will browse and open the PHP folder from the C drive. All Finished! KEY NOTE: Whenever you do anything on the IIS Server it is recommended that you restart the server for best results. To do this go to the IIS Manager Homepage and in the Actions Taskbar you're going to click "Restart".
  
- 6. (Install
+ 6. (Install OSticket) Being Installing OSticket now that you've finished all the other steps. Once it appears in your downloads folder, open up the C\netpub\wwwroot folder from your C drive. Extract the "Upload" folder from your Downloads folder to the wwwroot folder. Once you're finished with these steps rename the upload folder to "OSticket". Lastly Restart the IIS Server.
     
 
 
